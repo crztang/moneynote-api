@@ -12,6 +12,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories(repositoryBaseClass = BaseRepositoryImpl.class, enableDefaultTransactions = true)
 //@EnableTransactionManagement
 //https://stackoverflow.com/questions/40724100/enabletransactionmanagement-in-spring-boot
+//测试工作流
 public class Application {
 
 	public static void main(String[] args) {
